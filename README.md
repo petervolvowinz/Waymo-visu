@@ -35,8 +35,8 @@ sh generate_proto.sh
 ```
 
 ## Usage
-Under the data folder there is a sample scenario record, for more data download or link to the waymo open data set.
-
+Under the data folder there you need to download a sample scenario record - the code refers to this file(**training.tfrecord-00014-of-01000**).
+Please look here to access (github wont allow larger files than 100 MB): https://waymo.com/open/download/.
 Accessing the data set directly can be also be done:
 ```
 FILENAME2 = 'gs://waymo_open_dataset_motion_v_1_2_1/uncompressed/scenario/training/training.<fileextension>'
