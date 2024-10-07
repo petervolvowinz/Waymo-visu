@@ -8,6 +8,7 @@ import numpy as np
 
 from simple_waymo_open_dataset_reader import motion_utils as mu
 
+# either use allo objects or just the selected list of objects nearest to ego.
 use_all_data_objects = True
 def calculate_heading_angle(vx, vy):
     return np.arctan2(vy, vx) * 180 / np.pi
